@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "program\TreeParser", "program\TreeParser.csproj", "{633277B2-9564-48F8-9A4E-72CD68878AFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "tests\Tests.csproj", "{DCE9B6DC-3C7C-4D32-A5E8-25D84AA21D9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{633277B2-9564-48F8-9A4E-72CD68878AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633277B2-9564-48F8-9A4E-72CD68878AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633277B2-9564-48F8-9A4E-72CD68878AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633277B2-9564-48F8-9A4E-72CD68878AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F5441F-63B9-49DA-AFAE-6D06B6E16690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F5441F-63B9-49DA-AFAE-6D06B6E16690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F5441F-63B9-49DA-AFAE-6D06B6E16690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F5441F-63B9-49DA-AFAE-6D06B6E16690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE9B6DC-3C7C-4D32-A5E8-25D84AA21D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE9B6DC-3C7C-4D32-A5E8-25D84AA21D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE9B6DC-3C7C-4D32-A5E8-25D84AA21D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE9B6DC-3C7C-4D32-A5E8-25D84AA21D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30709AFF-3682-4589-A2D4-B821F66D90BF}
+	EndGlobalSection
+EndGlobal
