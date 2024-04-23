@@ -2,9 +2,9 @@
 
 ## C#/.NET
 
-You will need .NET v7.0 installed.
+You will need .NET v7.0 installed. All commands should be run in the `dotnet/TreeParser` folder.
 
-To run the program from the command line, run `dotnet run args` from the `dotnet` folder.
+To run the program from the command line, run `dotnet run [args]`.
 
 To run the unit tests, run `dotnet run test`.
 
@@ -16,9 +16,11 @@ This will build TreeParser.exe in `program\bin\Debug\net7.0\win-x64`.
 
 ## TypeScript/NodeJS
 
-You will need NodeJS v20.12.2 installed.
+You will need NodeJS v20.12.2 installed. All commands should be run from the `node` folder.
 
-To run the program from the command line, run `node start args` from the `node` folder.
+To run the program from the command line, run `node start [args]`.
+
+To run the tests, run `node run test`.
 
 ## Arguments
 
