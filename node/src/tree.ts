@@ -1,4 +1,4 @@
-import { TreeNode } from './treeNode';
+import { TreeNode } from './treeNode.js';
 
 export class Tree {
   private _rootNode?: TreeNode;
@@ -6,16 +6,12 @@ export class Tree {
     return this._rootNode;
   }
 
-  private delimiter: string;
-
-  constructor(inputs: any[], delimiter = ',') {
-    this.delimiter = delimiter;
-
+  constructor(inputs: any[]) {
     if (inputs.length === 0) {
       return;
     }
 
-    this._rootNode = new TreeNode(inputs.pop());
+    this._rootNode = new TreeNode(inputs.shift());
 
     this.buildTree(inputs);
   }
