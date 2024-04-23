@@ -12,6 +12,8 @@ To build the program as an executable, you can use `dotnet publish`. The exact a
 
 `dotnet publish -r win-x64 /p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true /p:UseAppHost=true`
 
+This will build TreeParser.exe in `program\bin\Debug\net7.0\win-x64`.
+
 ## TypeScript/NodeJS
 
 You will need NodeJS v20.12.2 installed.
